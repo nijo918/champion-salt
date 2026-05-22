@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://nijo918.github.io/champion-salt'),
+  metadataBase: new URL('https://nijo918.github.io'),
   title: 'Champion Salt - Quality in Every Crystal.',
   description:
     "Champion Salt is Zimbabwe's premier sea salt producer, delivering premium natural salt for retail, industrial, hospitality, and export markets.",
@@ -22,14 +22,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://nijo918.github.io/champion-salt',
+    url: 'https://nijo918.github.io/champion-salt/',
     siteName: 'Champion Salt',
     title: 'Champion Salt - Quality in Every Crystal.',
     description:
       "Zimbabwe's premium sea salt producer for homes, industries, hospitality, and export markets.",
     images: [
       {
-        url: '/champion-salt/assets/hero-salt-production.jpeg',
+        url: 'https://nijo918.github.io/champion-salt/assets/hero-salt-production.jpeg',
         width: 1200,
         height: 630,
         alt: 'Champion Salt harvest scene',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Champion Salt - Quality in Every Crystal.',
     description: "Zimbabwe's premium sea salt producer.",
-    images: ['/champion-salt/assets/hero-salt-production.jpeg'],
+    images: ['https://nijo918.github.io/champion-salt/assets/hero-salt-production.jpeg'],
   },
   robots: {
     index: true,
