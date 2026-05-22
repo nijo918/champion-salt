@@ -10,26 +10,26 @@ const products = [
     title: 'Fine Table Salt',
     description:
       'Premium quality table salt for household use. Pure, mineral-rich and perfect for everyday cooking.',
-    image: '/assets/saltproducts.jpeg',
+    image: '/champion-salt/assets/saltproducts.jpeg',
     specs: ['Fine grain', 'Iodized option available', '500g & 1kg packs'],
   },
   {
     title: 'Coarse Salt',
     description: 'Larger crystals ideal for preserving, pickling, and industrial applications.',
-    image: '/assets/hero-salt-production.jpeg',
+    image: '/champion-salt/assets/hero-salt-production.jpeg',
     specs: ['Larger crystals', 'Food-grade', 'Bulk packaging available'],
   },
   {
     title: 'Hospitality Packs',
     description: 'Custom packaged salt solution for restaurants, hotels, and food service businesses.',
-    image: '/assets/hospitalitypacks.jpeg',
+    image: '/champion-salt/assets/hospitalitypacks.jpeg',
     specs: ['Customizable branding', 'Restaurant-ready', 'Competitive pricing'],
   },
   {
     title: 'Specialty Salt Blends',
     description:
       'Curated salt blends with herbs and minerals for gourmet cooking and health-conscious consumers.',
-    image: '/assets/specialtyblends.jpeg',
+    image: '/champion-salt/assets/specialtyblends.jpeg',
     specs: ['Himalayan blend', 'Mineral fortified', 'Premium packaging'],
   },
 ]
@@ -60,7 +60,7 @@ function ProductCard({ product }: { product: Product }) {
           ))}
         </div>
         <a
-          href="/champion-salt/contact"
+          href="/champion-salt/contact/"
           className="inline-flex rounded-sm bg-red-600 px-6 py-3 text-sm font-bold uppercase tracking-normal text-white hover:bg-red-700 focus-visible:ring-2 focus-visible:ring-red-300 dark:focus-visible:ring-red-500/60"
         >
           Request quote
@@ -195,7 +195,7 @@ export default function ProductsPage() {
                 We can create tailored salt products for your specific requirements—tell us what you need and we’ll respond fast.
               </p>
               <a
-                href="/champion-salt/contact"
+                href="/champion-salt/contact/"
                 className="inline-flex rounded-sm bg-red-600 px-8 py-4 text-sm font-bold uppercase tracking-normal text-white hover:bg-red-700 focus-visible:ring-2 focus-visible:ring-red-300 dark:focus-visible:ring-red-500/60"
               >
                 Get in touch

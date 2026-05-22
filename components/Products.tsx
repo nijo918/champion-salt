@@ -5,15 +5,15 @@ const serviceGroups = [
     title: 'Salt products for homes, retail and foodservice.',
     body: 'Fine table salt, consumer packs and hospitality-ready products supplied with clean packaging and consistent quality.',
     cta: 'View Products',
-    link: '/products',
-    image: '/assets/saltproducts.jpeg',
+    link: '/champion-salt/products/',
+    image: '/champion-salt/assets/saltproducts.jpeg',
   },
   {
     title: 'Bulk salt supply for industrial and export markets.',
     body: 'Industrial grades, wholesale packs and custom bulk supply for manufacturers, distributors, agriculture and export buyers.',
     cta: 'View Services',
-    link: '/services',
-    image: '/assets/industrialgradesalt.jpeg',
+    link: '/champion-salt/services/',
+    image: '/champion-salt/assets/industrialgradesalt.jpeg',
   },
 ]
 

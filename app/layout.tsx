@@ -29,7 +29,7 @@ export const metadata: Metadata = {
       "Zimbabwe's premium sea salt producer for homes, industries, hospitality, and export markets.",
     images: [
       {
-        url: '/assets/hero-salt-production.jpeg',
+        url: '/champion-salt/assets/hero-salt-production.jpeg',
         width: 1200,
         height: 630,
         alt: 'Champion Salt harvest scene',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Champion Salt - Pure. Natural. Champion Quality.',
     description: "Zimbabwe's premium sea salt producer.",
-    images: ['/assets/hero-salt-production.jpeg'],
+    images: ['/champion-salt/assets/hero-salt-production.jpeg'],
   },
   robots: {
     index: true,

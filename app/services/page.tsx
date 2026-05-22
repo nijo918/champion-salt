@@ -6,25 +6,25 @@ const services = [
   {
     title: 'Bulk Industrial Supply',
     description: 'Large-scale salt supply for manufacturing, chemical processing, and industrial operations. Reliable delivery and consistent quality.',
-    image: '/assets/industrialgradesalt.jpeg',
+    image: '/champion-salt/assets/industrialgradesalt.jpeg',
     specs: ['Industrial grade', 'Custom sizing', 'Bulk discounts', 'Fleet delivery'],
   },
   {
     title: 'Agricultural Salt',
     description: 'De-icing salt and agricultural-grade products for farms, livestock operations, and seasonal needs.',
-    image: '/assets/agricsalt.jpeg',
+    image: '/champion-salt/assets/agricsalt.jpeg',
     specs: ['Livestock-safe', 'De-icing grade', 'Seasonal supply', 'Competitive pricing'],
   },
   {
     title: 'Export Solutions',
     description: 'International-certified salt products packaged and prepared for export to regional and global markets.',
-    image: '/assets/hero-salt-production.jpeg',
+    image: '/champion-salt/assets/hero-salt-production.jpeg',
     specs: ['Export certified', 'International standards', 'Custom packaging', 'Documentation support'],
   },
   {
     title: 'Distribution & Logistics',
     description: 'Comprehensive distribution network across Zimbabwe and southern Africa. We handle transport, storage, and inventory management.',
-    image: '/assets/hero-salt-truck.jpeg',
+    image: '/champion-salt/assets/hero-salt-truck.jpeg',
     specs: ['Fleet logistics', 'Warehouse storage', 'Inventory tracking', 'Timely delivery'],
   },
 ]
@@ -70,7 +70,7 @@ export default function ServicesPage() {
                       ))}
                     </div>
                     <a
-                      href="/champion-salt/contact"
+                      href="/champion-salt/contact/"
                       className="inline-flex rounded-sm bg-red-600 px-6 py-3 text-sm font-bold uppercase tracking-normal text-white hover:bg-red-700"
                     >
                       Learn More
@@ -84,7 +84,7 @@ export default function ServicesPage() {
               <h2 className="mb-4 text-3xl font-bold text-slate-900">Need a custom supply solution?</h2>
               <p className="mb-8 text-lg text-slate-600">Our team can work with you to develop the perfect salt supply arrangement for your business.</p>
               <a
-                href="/champion-salt/contact"
+                href="/champion-salt/contact/"
                 className="inline-flex rounded-sm bg-red-600 px-8 py-4 text-sm font-bold uppercase tracking-normal text-white hover:bg-red-700"
               >
                 Contact Our Team

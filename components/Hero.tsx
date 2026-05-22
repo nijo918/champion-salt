@@ -4,19 +4,19 @@ import { useEffect, useState } from 'react'
 
 const slides = [
   {
-    src: '/assets/hero-salt-production.jpeg',
+    src: '/champion-salt/assets/hero-salt-production.jpeg',
     title: 'Welcome to Champion Salt!',
     eyebrow: "We've got you covered!",
     body: 'Reliable salt production and bulk supply for retail, industrial, agricultural and export customers.',
   },
   {
-    src: '/assets/hero-salt-bulk.jpeg',
+    src: '/champion-salt/assets/hero-salt-bulk.jpeg',
     title: 'Quality salt. Supplied at scale.',
     eyebrow: 'Bulk and industrial supply',
     body: 'From factory floors to distribution networks, we help businesses secure consistent salt volumes.',
   },
   {
-    src: '/assets/hero-salt-truck.jpeg',
+    src: '/champion-salt/assets/hero-salt-truck.jpeg',
     title: 'Delivered where your business needs it.',
     eyebrow: 'Regional distribution',
     body: 'Champion Salt supports dependable movement of packaged and bulk salt across Zimbabwe and beyond.',
