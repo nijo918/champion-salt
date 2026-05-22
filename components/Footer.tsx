@@ -119,7 +119,7 @@ export default function Footer() {
               </div>
               <div>
                 <p className="text-lg font-extrabold text-white">Champion Salt</p>
-                <p className="text-xs italic text-slate-400">Pure. Natural. Champion Quality.</p>
+                <p className="text-xs italic text-slate-400">Quality in Every Crystal.</p>
               </div>
             </div>
 
