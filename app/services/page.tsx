@@ -70,7 +70,7 @@ export default function ServicesPage() {
                       ))}
                     </div>
                     <a
-                      href="/contact"
+                      href="/champion-salt/contact"
                       className="inline-flex rounded-sm bg-red-600 px-6 py-3 text-sm font-bold uppercase tracking-normal text-white hover:bg-red-700"
                     >
                       Learn More
@@ -84,7 +84,7 @@ export default function ServicesPage() {
               <h2 className="mb-4 text-3xl font-bold text-slate-900">Need a custom supply solution?</h2>
               <p className="mb-8 text-lg text-slate-600">Our team can work with you to develop the perfect salt supply arrangement for your business.</p>
               <a
-                href="/contact"
+                href="/champion-salt/contact"
                 className="inline-flex rounded-sm bg-red-600 px-8 py-4 text-sm font-bold uppercase tracking-normal text-white hover:bg-red-700"
               >
                 Contact Our Team

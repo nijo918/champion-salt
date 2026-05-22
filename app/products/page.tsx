@@ -60,7 +60,7 @@ function ProductCard({ product }: { product: Product }) {
           ))}
         </div>
         <a
-          href="/contact"
+          href="/champion-salt/contact"
           className="inline-flex rounded-sm bg-red-600 px-6 py-3 text-sm font-bold uppercase tracking-normal text-white hover:bg-red-700 focus-visible:ring-2 focus-visible:ring-red-300 dark:focus-visible:ring-red-500/60"
         >
           Request quote
@@ -195,7 +195,7 @@ export default function ProductsPage() {
                 We can create tailored salt products for your specific requirements—tell us what you need and we’ll respond fast.
               </p>
               <a
-                href="/contact"
+                href="/champion-salt/contact"
                 className="inline-flex rounded-sm bg-red-600 px-8 py-4 text-sm font-bold uppercase tracking-normal text-white hover:bg-red-700 focus-visible:ring-2 focus-visible:ring-red-300 dark:focus-visible:ring-red-500/60"
               >
                 Get in touch

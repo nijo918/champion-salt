@@ -66,8 +66,8 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="icon" href="/champion-salt/icon.svg" type="image/svg+xml" />
+        <link rel="manifest" href="/champion-salt/manifest.json" />
       </head>
       <body className="antialiased">
         {children}
