@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nijo918.github.io/champion-salt/sitemap.xml

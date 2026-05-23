@@ -1,13 +1,14 @@
 {
   "name": "Champion Salt",
   "short_name": "Champion Salt",
-  "start_url": "/",
+  "start_url": "/champion-salt/",
+  "scope": "/champion-salt/",
   "display": "standalone",
   "background_color": "#0A1628",
   "theme_color": "#0A1628",
   "icons": [
     {
-      "src": "/icon.svg",
+      "src": "/champion-salt/icon.svg",
       "sizes": "any",
       "type": "image/svg+xml"
     }
