@@ -1,31 +1,26 @@
 'use client'
 
 import Link from 'next/link'
-import { Facebook, Instagram, Linkedin, Mail, Phone, X } from 'lucide-react'
+import { Mail, MessageCircle, Phone } from 'lucide-react'
 import Logo from './Logo'
 
 const WHATSAPP_URL = 'https://wa.me/447572396710'
 
-const social = [
+const contactLinks = [
   {
-    label: 'Facebook',
+    label: 'WhatsApp',
     href: WHATSAPP_URL,
-    Icon: Facebook,
+    Icon: MessageCircle,
   },
   {
-    label: 'LinkedIn',
-    href: WHATSAPP_URL,
-    Icon: Linkedin,
+    label: 'Email',
+    href: 'mailto:hello@championsalt.co.zw',
+    Icon: Mail,
   },
   {
-    label: 'Instagram',
-    href: WHATSAPP_URL,
-    Icon: Instagram,
-  },
-  {
-    label: 'X',
-    href: WHATSAPP_URL,
-    Icon: X,
+    label: 'Phone',
+    href: 'tel:+447572396710',
+    Icon: Phone,
   },
 ] as const
 
@@ -67,6 +62,13 @@ export default function Footer() {
               className="w-full md:max-w-md"
               onSubmit={(e) => {
                 e.preventDefault()
+                const form = e.currentTarget
+                const data = new FormData(form)
+                const email = String(data.get('email') || '').trim()
+                if (email) {
+                  window.location.href = `mailto:hello@championsalt.co.zw?subject=Newsletter%20signup&body=Please%20add%20${encodeURIComponent(email)}%20to%20the%20Champion%20Salt%20mailing%20list.`
+                  form.reset()
+                }
               }}
               aria-label="Newsletter subscription"
             >
@@ -76,6 +78,7 @@ export default function Footer() {
               <div className="flex flex-col gap-3 sm:flex-row">
                 <input
                   id="newsletter-email"
+                  name="email"
                   type="email"
                   className="premium-input"
                   placeholder="you@example.com"
@@ -119,7 +122,7 @@ export default function Footer() {
               </div>
               <div>
                 <p className="text-lg font-extrabold text-white">Champion Salt</p>
-                <p className="text-xs italic text-slate-400">Quality in Every Crystal.</p>
+                <p className="text-xs italic text-slate-400">Quality in Every Crystal</p>
               </div>
             </div>
 
@@ -132,12 +135,12 @@ export default function Footer() {
             </p>
 
             <div className="flex items-center gap-3 pt-2">
-              {social.map(({ label, href, Icon }) => (
+              {contactLinks.map(({ label, href, Icon }) => (
                 <a
                   key={label}
                   href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  target={href.startsWith('http') ? '_blank' : undefined}
+                  rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
                   className="inline-flex h-10 w-10 items-center justify-center rounded-sm border border-white/10 bg-white/5 text-slate-100 transition hover:bg-white hover:text-[#1a1a1a]"
                   aria-label={label}
                 >
@@ -157,7 +160,7 @@ export default function Footer() {
                 { label: 'Products', href: '/products' },
                 { label: 'Process', href: '/services' },
                 { label: 'Industries', href: '/services' },
-                { label: 'Careers', href: '/#careers' },
+                { label: 'Contact', href: '/contact' },
               ].map((item) => (
                 <Link
                   key={item.label}
@@ -258,11 +261,18 @@ export default function Footer() {
           <div>© 2025 Champion Salt (Pvt) Ltd | Registered in Zimbabwe</div>
 
           <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
-            {['Privacy', 'Terms', 'Cookies', 'Sitemap'].map((label) => (
-              <a key={label} href="#" className="hover:text-white">
-                {label}
-              </a>
-            ))}
+            <a href="mailto:hello@championsalt.co.zw?subject=Privacy%20request" className="hover:text-white">
+              Privacy
+            </a>
+            <a href="mailto:hello@championsalt.co.zw?subject=Terms%20request" className="hover:text-white">
+              Terms
+            </a>
+            <a href="mailto:hello@championsalt.co.zw?subject=Cookie%20request" className="hover:text-white">
+              Cookies
+            </a>
+            <Link href="/" className="hover:text-white">
+              Sitemap
+            </Link>
             <span className="text-slate-600">|</span>
             <span className="text-slate-300">
               Right: Designed with <span aria-hidden="true">♦</span> in Zimbabwe

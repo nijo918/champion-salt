@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://nijo918.github.io'),
-  title: 'Champion Salt - Quality in Every Crystal.',
+  title: 'Champion Salt - Quality in Every Crystal',
   description:
     "Champion Salt is Zimbabwe's premier sea salt producer, delivering premium natural salt for retail, industrial, hospitality, and export markets.",
   keywords: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://nijo918.github.io/champion-salt/',
     siteName: 'Champion Salt',
-    title: 'Champion Salt - Quality in Every Crystal.',
+    title: 'Champion Salt - Quality in Every Crystal',
     description:
       "Zimbabwe's premium sea salt producer for homes, industries, hospitality, and export markets.",
     images: [
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Champion Salt - Quality in Every Crystal.',
+    title: 'Champion Salt - Quality in Every Crystal',
     description: "Zimbabwe's premium sea salt producer.",
     images: ['https://nijo918.github.io/champion-salt/assets/hero-salt-production.jpeg'],
   },

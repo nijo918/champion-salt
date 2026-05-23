@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
-import { Facebook, MapPin, Menu, Phone, X } from 'lucide-react'
+import { MapPin, Menu, MessageCircle, Phone, X } from 'lucide-react'
 import Logo from './Logo'
 
 const navItems = [
@@ -28,8 +28,14 @@ export default function Navbar() {
           <span className="flex items-center gap-1">
             <MapPin size={14} /> Harare Zimbabwe
           </span>
-          <a href="#" aria-label="Facebook page" className="rounded-sm bg-slate-700 p-1 text-white">
-            <Facebook size={16} />
+          <a
+            href="https://wa.me/447572396710"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp support"
+            className="rounded-sm bg-slate-700 p-1 text-white"
+          >
+            <MessageCircle size={16} />
           </a>
         </div>
       </div>
@@ -39,7 +45,7 @@ export default function Navbar() {
           <Logo />
           <span>
             <span className="block text-2xl font-extrabold text-slate-900">Champion Salt</span>
-            <span className="block text-sm italic text-slate-500">Salt - smartly supplied.</span>
+            <span className="block text-sm italic text-slate-500">Quality in Every Crystal</span>
           </span>
         </Link>
 

@@ -8,7 +8,7 @@
 - [ ] 404 / not-found page handles missing routes
 
 ## 2. Content & Branding
-- [ ] Slogan updated to **Quality in Every Crystal.**
+- [ ] Slogan updated to **Quality in Every Crystal**
 - [ ] Homepage hero messaging clear and customer-focused
 - [ ] Logo image exists at `/champion-salt/assets/logo.jpeg`
 - [ ] Favicon and manifest are configured for GitHub Pages
