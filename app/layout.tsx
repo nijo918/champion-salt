@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   authors: [{ name: 'Champion Salt Zimbabwe' }],
   creator: 'Champion Salt',
   publisher: 'Champion Salt Zimbabwe',
+  alternates: {
+    canonical: 'https://nijo918.github.io/champion-salt/',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -45,6 +48,13 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
+    },
   },
 }
 

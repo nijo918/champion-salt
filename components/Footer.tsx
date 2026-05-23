@@ -81,7 +81,7 @@ export default function Footer() {
                   name="email"
                   type="email"
                   className="premium-input"
-                  placeholder="you@example.com"
+                  placeholder="Your email address"
                   required
                 />
                 <button type="submit" className="btn-primary flex-1">
